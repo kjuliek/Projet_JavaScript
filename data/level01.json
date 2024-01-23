@@ -2,25 +2,39 @@
     "platforms": [
         {"image": "ground", "x": 0, "y": 516},
         {"image": "underground", "x": 0, "y": 558},
-        {"image": "grass:4x1", "x": 420, "y": 390}
+
+        {"image": "snow_2left_corners", "x": 420, "y": 390},
+        {"image": "snow", "x": 462, "y": 390},
+        {"image": "snow", "x": 504, "y": 390},
+        {"image": "snow_2right_corners", "x": 546, "y": 390}
+
     ],
-    "decoration": [
-        {"frame": 2, "x": 630, "y": 504},
-        {"frame": 2, "x": 663, "y": 504},
-        {"frame": 2, "x": 697, "y": 504},
-        {"frame": 3, "x": 756, "y": 504},
-        {"frame": 1, "x": 84, "y": 504},
-        {"frame": 0, "x": 252, "y": 504},
-        {"frame": 4, "x": 462, "y": 378}
+    "breakablePlatforms": [
+        
     ],
-    "coins": [
-        {"x": 147, "y": 525}, {"x": 189, "y": 525},
-        {"x": 399, "y": 399}, {"x": 357, "y": 420}, {"x": 336, "y": 462},
-        {"x": 819, "y": 525}, {"x": 861, "y": 525}, {"x": 903, "y": 525}
+    "velocityDetectors": [
+        
     ],
-    "hero": {"x": 21, "y": 525},
-    "spiders": [
+    "allIce": [
+        
     ],
-    "door": {"x": 231, "y": 546},
-    "key": {"x": 525, "y": 336}
+    "letters":  [
+        {"image": "O", "x": 480, "y": 350, "animation": [0, 1, 2, 3, 4, 5, 6, 7]},
+        {"image": "N", "x": 700, "y": 310, "animation": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]}
+    ],
+    "lettersPosted" : [
+        {"image": "P", "x": 32, "y": 558, "animation": [0]},
+        {"image": "E", "x": 54, "y": 558, "animation": [0]}
+    ],
+    "resultLetters" : [
+        {"image": "O", "x": 10, "y": 558, "animation": [0]},
+        {"image": "N", "x": 76, "y": 558, "animation": [0]}
+    ],
+
+    "hero": {"x": 100, "y": 470},
+    "portal": {"x": 850, "y": 432},
+    "computer": {"result": ["O", "N"], "positionsForLetters" : [10, 76], "x": 750, "y": 453},
+    "button": {"x": 10, "y": 474},
+    "button_pressed": {"x": 10, "y": 500}
 }
+

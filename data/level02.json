@@ -2,33 +2,90 @@
     "platforms": [
         {"image": "ground", "x": 0, "y": 516},
         {"image": "underground", "x": 0, "y": 558},
-        {"image": "grass:8x1", "x": 0, "y": 390},
-        {"image": "grass:2x1", "x": 420, "y": 306},
-        {"image": "grass:1x1", "x": 588, "y": 474},
-        {"image": "grass:8x1", "x": 672, "y": 348},
-        {"image": "grass:4x1", "x": 126, "y": 222},
-        {"image": "grass:6x1", "x": 462, "y": 138},
-        {"image": "grass:2x1", "x": 798, "y": 104}
+
+        {"image": "snow", "x": 0, "y": 390},
+        {"image": "snow", "x": 42, "y": 390},
+        {"image": "snow_breakRight", "x": 84, "y": 390},
+        {"image": "snow_breakLeft", "x": 210, "y": 390},
+        {"image": "snow", "x": 252, "y": 390},
+        {"image": "snow_2right_corners", "x":294, "y":390},
+
+        {"image": "snow_2left_corners", "x": 420, "y": 306},
+        {"image": "snow_2right_corners", "x": 462, "y": 306},
+
+        {"image": "snow_2left_corners", "x":672, "y":348},
+        {"image": "snow", "x": 714, "y": 348},
+        {"image": "snow_breakRight", "x": 756, "y": 348},
+        {"image": "snow_breakLeft", "x": 882, "y": 348},
+        {"image": "snow", "x": 924, "y": 348},
+        {"image": "snow", "x": 966, "y": 348},
+
+        {"image": "snow_2left_corners", "x": 126, "y": 222},
+        {"image": "snow", "x": 168, "y": 222},
+        {"image": "snow", "x": 210, "y": 222},
+        {"image": "snow_2right_corners", "x": 252, "y": 222},
+
+        {"image": "snow_2left_corners", "x":462, "y":178},
+        {"image": "snow_breakRight", "x": 504, "y": 178},
+        {"image": "snow_breakLeft", "x": 630, "y": 178},
+        {"image": "snow_2right_corners", "x":672, "y":178},
+
+        {"image": "snow_2left_corners", "x": 798, "y": 104},
+        {"image": "snow_2right_corners", "x": 840, "y": 104}
     ],
-    "decoration": [
-        {"frame": 0, "x": 84, "y": 504}, {"frame": 1, "x": 420, "y": 504},
-        {"frame": 3, "x": 672, "y": 504}, {"frame": 4, "x": 595, "y": 462},
-        {"frame": 2, "x": 142, "y": 378}, {"frame": 1, "x": 168, "y": 378},
-        {"frame": 0, "x": 714, "y": 336},
-        {"frame": 4, "x": 420, "y": 294},
-        {"frame": 1, "x": 515, "y": 126}, {"frame": 3, "x": 525, "y": 126}
+    "breakablePlatforms": [
+        {"x": 126, "y": 390},
+        {"x": 546, "y": 178},
+        {"x": 798, "y":348}
     ],
-    "coins": [
-        {"x": 231, "y": 524}, {"x": 273, "y": 524}, {"x": 315, "y": 524}, {"x": 357, "y": 524},
-        {"x": 819, "y": 524}, {"x": 861, "y": 524}, {"x": 903, "y": 524}, {"x": 945, "y": 524},
-        {"x": 399, "y": 294}, {"x": 357, "y": 315}, {"x": 336, "y": 357},
-        {"x": 777, "y": 357}, {"x": 819, "y": 357}, {"x": 861, "y": 357}, {"x": 903, "y": 357}, {"x": 945, "y": 357},
-        {"x": 189, "y": 231}, {"x": 231, "y": 231},
-        {"x": 525, "y": 147}, {"x": 567, "y": 147}, {"x": 609, "y": 147}, {"x": 651, "y": 147},
-        {"x": 819, "y": 63}, {"x": 861, "y": 63}
+    "velocityDetectors": [
+        {"x": 126, "y": 380}, 
+        {"x": 546, "y": 168},
+        {"x": 798, "y":338}
+    ],
+    "allIce": [
+        {"x": 20, "y": 0},
+        {"x": 800, "y": 0}
+    ],
+    "letters":  [
+        {"image": "A", "x": 525, "y": 474, "animation": [0, 1, 2, 3, 4, 5, 6, 7]},
+        {"image": "S", "x": 200, "y": 180, "animation": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]},
+        {"image": "I", "x": 861, "y": 357, "animation": [0, 1, 2, 3, 4, 5, 6, 7]},
+        {"image": "O", "x": 567, "y": 187, "animation": [0, 1, 2, 3, 4, 5, 6, 7]},
+        {"image": "P", "x": 810, "y": 73, "animation": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]},
+        {"image": "E", "x": 700, "y": 310, "animation": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]}
+    ],
+    "lettersPosted": [
+        {"image": "T", "x": 10, "y": 558, "animation": [0]},
+        {"image": "H", "x": 32, "y": 558, "animation": [0]},
+        {"image": "S", "x": 76, "y": 558, "animation": [0]},
+        {"image": ".", "x": 98, "y": 558, "animation": [0]},
+        {"image": "P", "x": 104, "y": 558, "animation": [0]},
+        {"image": "R", "x": 148, "y": 558, "animation": [0]},
+        {"image": "T", "x": 170, "y": 558, "animation": [0]},
+        {"image": "L", "x": 214, "y": 558, "animation": [0]},
+        {"image": ".", "x": 236, "y": 558, "animation": [0]},
+        {"image": "I", "x": 242, "y": 558, "animation": [0]},
+        {"image": "O", "x": 286, "y": 558, "animation": [0]},
+        {"image": "E", "x": 330, "y": 558, "animation": [0]},
+        {"image": "N", "x": 352, "y": 558, "animation": [0]},
+        {"image": "=", "x": 396, "y": 558, "animation": [0]},
+        {"image": "O", "x": 440, "y": 558, "animation": [0]},
+        {"image": "P", "x": 462, "y": 558, "animation": [0]},
+        {"image": "N", "x": 506, "y": 558, "animation": [0]},
+        {"image": ";", "x": 528, "y": 563, "animation": [0]}
+    ],
+    "resultLetters" : [
+        {"image": "I", "x": 54, "y": 558, "animation": [0]},
+        {"image": "O", "x": 126, "y": 558, "animation": [0]},
+        {"image": "A", "x": 192, "y": 558, "animation": [0]},
+        {"image": "S", "x": 264, "y": 558, "animation": [0]},
+        {"image": "P", "x": 308, "y": 558, "animation": [0]},
+        {"image": "E", "x": 484, "y": 558, "animation": [0]}
     ],
     "hero": {"x": 21, "y": 470},
-    "spiders": [{"x": 121, "y": 399}, {"x": 800, "y": 362}, {"x": 500, "y": 147}],
-    "door": {"x": 169, "y": 546},
-    "key": {"x": 903, "y": 105}
+    "portal": {"x": 850, "y": 432},
+    "computer": {"result": ["I", "O", "A", "S", "P", "E"], "positionsForLetters" : [54, 126, 192, 264, 308, 484], "x": 750, "y": 453},
+    "button": {"x": 910, "y": 306},
+    "button_pressed": {"x": 910, "y": 332}
 }

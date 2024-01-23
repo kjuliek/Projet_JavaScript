@@ -1,0 +1,41 @@
+{
+    "platforms": [
+        {"image": "ground", "x": 0, "y": 516},
+        {"image": "underground", "x": 0, "y": 558}
+
+    ],
+    "breakablePlatforms": [
+        
+    ],
+    "velocityDetectors": [
+        
+    ],
+    "allIce": [
+        
+    ],
+    "letters":  [
+        {"image": "R", "x": 231, "y": 474, "animation": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]},
+        {"image": "E", "x": 263, "y": 474, "animation": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]},
+        {"image": "S", "x": 295, "y": 474, "animation": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]},
+        {"image": "T", "x": 327, "y": 474, "animation": [0, 1, 2, 3, 4, 5, 6, 7]},
+        {"image": "A", "x": 359, "y": 474, "animation": [0, 1, 2, 3, 4, 5, 6, 7]},
+        {"image": "R", "x": 391, "y": 474, "animation": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]},
+        {"image": "T", "x": 423, "y": 474, "animation": [0, 1, 2, 3, 4, 5, 6, 7]}
+    ],
+    "lettersPosted" : [
+    ],
+    "resultLetters" : [
+        {"image": "R", "x": 10, "y": 558, "animation": [0]},
+        {"image": "E", "x": 32, "y": 558, "animation": [0]},
+        {"image": "S", "x": 54, "y": 558, "animation": [0]},
+        {"image": "T", "x": 76, "y": 558, "animation": [0]},
+        {"image": "A", "x": 98, "y": 558, "animation": [0]},
+        {"image": "R", "x": 120, "y": 558, "animation": [0]},
+        {"image": "T", "x": 142, "y": 558, "animation": [0]}
+    ],
+    "hero": {"x": 100, "y": 470},
+    "portal": {"x": 850, "y": 432},
+    "computer": {"result": ["R", "E", "S", "T", "A", "R", "T"], "positionsForLetters" : [10, 32, 54, 76, 98, 120, 142], "x": 750, "y": 453},
+    "button": {"x": 10, "y": 474},
+    "button_pressed": {"x": 10, "y": 500}
+}

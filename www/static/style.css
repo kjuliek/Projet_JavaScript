@@ -1,0 +1,81 @@
+body {
+    background: linear-gradient(to top, #DEFBFF, #ACBDCB, #464162, #2D2248, #13022D);
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.pink-gradient-color {
+    background: linear-gradient(to right, #FF7EA7, #FF8EB2, #FF9DBC, #FFACC6, #FFBBD0);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.pink-degrading-color {
+    background: linear-gradient(to left, #FF7EA7, #FF8EB2, #FF9DBC, #FFACC6, #FFBBD0);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.text-align-center {
+    text-align: center;
+}
+.margin-top {
+    margin-top: 5%;
+}
+.margin-top2 {
+    margin-top: 50%;
+}
+.margin-left {
+    margin-left: 6%;
+}
+.box-vertical {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button {
+    margin-top: 2.5%;
+
+    padding: 0.3em 1.2em;
+    border-radius: 2em;
+    font-weight: 300;
+    color: #80373A;
+    background-color: #F095B2;
+    border-color: #B47589;
+}
+
+.animation {
+    margin-top: 2.5%;
+    margin-bottom: 10%;
+    width: 47px;
+    height: 62px;
+
+    animation-name: hero-animation;
+    background: url("../../images/hero_animation_steps/hero_step_0.png");
+
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes hero-animation {
+    0% {
+        background: url("../../images/hero_animation_steps/hero_step_0.png");
+    }
+    25% {
+        background: url("../../images/hero_animation_steps/hero_step_1.png");
+    }
+    50% {
+        background: url("../../images/hero_animation_steps/hero_step_2.png");
+    }
+    75% {
+        background: url("../../images/hero_animation_steps/hero_step_3.png");
+    }
+    100% {
+        background: url("../../images/hero_animation_steps/hero_step_4.png");
+    }
+}
